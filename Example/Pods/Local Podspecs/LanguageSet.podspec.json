@@ -1,0 +1,22 @@
+{
+  "name": "LanguageSet",
+  "version": "0.1.0",
+  "summary": "A short description of LanguageSet.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gavin/LanguageSet",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gavin": "kindyourself@163.com"
+  },
+  "source": {
+    "git": "https://github.com/gavin/LanguageSet.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LanguageSet/Classes/**/*"
+}

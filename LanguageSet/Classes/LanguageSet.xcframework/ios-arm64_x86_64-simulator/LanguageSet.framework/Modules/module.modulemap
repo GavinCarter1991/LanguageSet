@@ -1,0 +1,6 @@
+framework module LanguageSet {
+  umbrella header "LanguageSet.h"
+  export *
+
+  module * { export * }
+}

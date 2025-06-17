@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LanguageSet (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LanguageSet (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LanguageSet:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LanguageSet: d9b617995ce05ce62c210174456943291334fe30
+
+PODFILE CHECKSUM: 222f2fc622ad00614cac4203270afb55b1cbf37c
+
+COCOAPODS: 1.16.2
