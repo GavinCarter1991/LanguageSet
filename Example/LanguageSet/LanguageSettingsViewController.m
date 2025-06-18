@@ -6,7 +6,7 @@
 //
 
 #import "LanguageSettingsViewController.h"
-#import "LanguageManager.h"
+#import "LanguageSet/LanguageSet.h"
 #import "LocalizationMacro.h"
 
 @interface LanguageSettingsViewController ()<UITableViewDataSource, UITableViewDelegate>

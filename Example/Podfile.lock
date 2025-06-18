@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - LanguageSet (0.1.0)
+  - LanguageSet (0.0.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LanguageSet: d9b617995ce05ce62c210174456943291334fe30
+  LanguageSet: 13cb9257ade211408520a70b691e40f96846879e
 
 PODFILE CHECKSUM: 222f2fc622ad00614cac4203270afb55b1cbf37c
 

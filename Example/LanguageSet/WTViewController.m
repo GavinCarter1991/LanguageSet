@@ -7,7 +7,7 @@
 //
 
 #import "WTViewController.h"
-#import "LanguageManager.h"
+#import "LanguageSet/LanguageSet.h"
 #import "LocalizationMacro.h"
 #import "LanguageSettingsViewController.h"
 
