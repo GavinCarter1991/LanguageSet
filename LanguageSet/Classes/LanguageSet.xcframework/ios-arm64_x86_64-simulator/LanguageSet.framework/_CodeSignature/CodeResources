@@ -21,6 +21,10 @@
 	<dict>
 		<key>Headers/LanguageSet.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			6xZE1xvs0bfcyO0SklB50FqIKV0=
+			</data>
 			<key>hash2</key>
 			<data>
 			etsdpgR9ZbtyslN9K7pWG2PpI4Wk/BxpNJbYtv+CA4U=
@@ -28,6 +32,10 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			gk4VvUBEIXm3Z8yLnTDufvGS70Q=
+			</data>
 			<key>hash2</key>
 			<data>
 			BuJyvzkCYN/LADKTURCOd7y0WxQ9Og89ukSeik/w3WE=

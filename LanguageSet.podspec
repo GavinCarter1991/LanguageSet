@@ -24,7 +24,7 @@ A few simple lines of code can handle multiple languages
   s.homepage         = 'https://github.com/GavinCarter1991/LanguageSet'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'gavin' => 'gavinCarter1991@gmail.com' }
+  s.author           = { 'gavin' => 'kindyourself@163.com' }
   s.source           = { :git => 'https://github.com/GavinCarter1991/LanguageSet.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

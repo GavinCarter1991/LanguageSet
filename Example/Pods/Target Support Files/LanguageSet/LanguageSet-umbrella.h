@@ -10,8 +10,6 @@
 #endif
 #endif
 
-#import "LanguageSet.h"
-#import "LanguageSet.h"
 
 FOUNDATION_EXPORT double LanguageSetVersionNumber;
 FOUNDATION_EXPORT const unsigned char LanguageSetVersionString[];
