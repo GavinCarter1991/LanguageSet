@@ -19,6 +19,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+#import <LanguageSet/LanguageSet.h>
+
 ## Installation
 
 LanguageSet is available through [CocoaPods](https://cocoapods.org). To install
