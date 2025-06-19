@@ -2,6 +2,12 @@
   Localizable.strings
   LanguageSet
 
-  Created by wt on 2025/6/17.
+  Created by wt on 2025/6/19.
   Copyright © 2025 gavin. All rights reserved.
 */
+
+"HOME_TITLE" = "Home";
+"LOGIN_BUTTON" = "Set Language";
+"SETTINGS_LANGUAGE" = "Language Settings";
+"WELCOME_MESSAGE" = "Welcome, %@!";
+"LOGOUT_CONFIRM" = "Are you sure you want to Set Language?";

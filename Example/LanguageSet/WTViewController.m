@@ -7,11 +7,14 @@
 //
 
 #import "WTViewController.h"
-#import "LanguageManager.h"
 #import "LocalizationMacro.h"
 #import "LanguageSettingsViewController.h"
+#import <LanguageSet/LanguageSet.h>
 
 @interface WTViewController ()
+
+@property (nonatomic, strong) UIButton *loginButton;
+@property (nonatomic, strong) UILabel *welcomeLabel;
 
 @end
 

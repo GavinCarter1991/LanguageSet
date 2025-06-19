@@ -6,7 +6,7 @@
 //
 
 #import "LanguageSettingsViewController.h"
-#import "LanguageManager.h"
+#import <LanguageSet/LanguageSet.h>
 #import "LocalizationMacro.h"
 
 @interface LanguageSettingsViewController ()<UITableViewDataSource, UITableViewDelegate>
@@ -22,7 +22,7 @@
     [super viewDidLoad];
     
     self.title = LocalizedString(@"SETTINGS_LANGUAGE");
-    self.languages = [LanguageManager sharedManager].supportedLanguages;
+    self.languages = [LanguageSet sharedManager].supportedLanguages;
     
     // 创建表格
     self.tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
@@ -44,12 +44,12 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
     NSString *languageCode = self.languages[indexPath.row];
-    NSString *languageName = [LanguageManager sharedManager].languageDisplayNames[languageCode];
+    NSString *languageName = [LanguageSet sharedManager].languageDisplayNames[languageCode];
     
     cell.textLabel.text = languageName;
     
     // 标记当前选中语言
-    if ([languageCode isEqualToString:[LanguageManager sharedManager].currentLanguage]) {
+    if ([languageCode isEqualToString:[LanguageSet sharedManager].currentLanguage]) {
         cell.accessoryType = UITableViewCellAccessoryCheckmark;
     } else {
         cell.accessoryType = UITableViewCellAccessoryNone;
@@ -64,7 +64,7 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
     NSString *selectedLanguage = self.languages[indexPath.row];
-    [[LanguageManager sharedManager] setLanguage:selectedLanguage];
+    [[LanguageSet sharedManager] setLanguage:selectedLanguage];
     
     // 刷新界面显示
     [tableView reloadData];

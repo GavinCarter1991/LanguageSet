@@ -9,6 +9,7 @@
 #import "WTAppDelegate.h"
 #import "LocalizationMacro.h"
 #import "WTViewController.h"
+#import <LanguageSet/LanguageSet.h>
 
 @implementation WTAppDelegate
 

@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/LanguageSet.h</key>
 		<data>
-		6xZE1xvs0bfcyO0SklB50FqIKV0=
+		uqwQ8LAVHd9pRJkWX0KoXO0p86w=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/KNka2h30Eigtd9nKfuYJPSFQG0=
+		ajo7lGCLBhJKEVTC0MmP4l5VniY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -21,21 +21,13 @@
 	<dict>
 		<key>Headers/LanguageSet.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6xZE1xvs0bfcyO0SklB50FqIKV0=
-			</data>
 			<key>hash2</key>
 			<data>
-			etsdpgR9ZbtyslN9K7pWG2PpI4Wk/BxpNJbYtv+CA4U=
+			s62V8GuQtdbSIuk9J6UPwfPwpvVtpuk4CVAaInQA9YE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			gk4VvUBEIXm3Z8yLnTDufvGS70Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			BuJyvzkCYN/LADKTURCOd7y0WxQ9Og89ukSeik/w3WE=

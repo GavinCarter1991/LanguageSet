@@ -1,18 +1,19 @@
 //
 //  LanguageSet.h
-//  Multilingual
+//  LanguageSet_Example
 //
-//  Created by wt on 2025/6/17.
+//  Created by wt on 2025/6/19.
+//  Copyright © 2025 gavin. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+// 语言变更通知
+extern NSString * _Nullable const LanguageDidChangeNotification;
 
 NS_ASSUME_NONNULL_BEGIN
 
-// 语言变更通知
-extern NSString * const LanguageDidChangeNotification;
-
-@interface LanguageSet : UIViewController
+@interface LanguageSet : NSObject
 
 // 单例实例
 + (instancetype)sharedManager;

@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  LanguageSet
+
+  Created by wt on 2025/6/19.
+  Copyright © 2025 gavin. All rights reserved.
+*/
+
+"HOME_TITLE" = "首页";
+"LOGIN_BUTTON" = "设置语言";
+"SETTINGS_LANGUAGE" = "语言设置";
+"WELCOME_MESSAGE" = "欢迎, %@!";
+"LOGOUT_CONFIRM" = "确定要设置语言吗？";

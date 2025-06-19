@@ -6,7 +6,7 @@
 //
 
 #import "BaseViewController.h"
-#import "LanguageManager.h"
+#import <LanguageSet/LanguageSet.h>
 
 @implementation BaseViewController
 

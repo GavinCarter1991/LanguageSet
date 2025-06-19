@@ -10,11 +10,11 @@
 
 // 基础宏定义
 #define LocalizedString(key) \
-[[LanguageManager sharedManager] localizedStringForKey:key value:@""]
+[[LanguageSet sharedManager] localizedStringForKey:key value:@""]
 
 // 带默认值的宏定义
 #define LocalizedStringWithDefault(key, default) \
-[[LanguageManager sharedManager] localizedStringForKey:key value:default]
+[[LanguageSet sharedManager] localizedStringForKey:key value:default]
 
 // 格式化字符串宏
 #define LocalizedFormat(key, ...) \
