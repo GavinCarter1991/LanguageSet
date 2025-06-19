@@ -9,6 +9,14 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```
+// 获取支持的语言列表
+[LanguageSet sharedManager].supportedLanguages
+
+// 设置应用语言
+[[LanguageSet sharedManager] setLanguage:selectedLanguage];
+```
+
 ## Requirements
 
 ## Installation
